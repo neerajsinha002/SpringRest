@@ -15,9 +15,7 @@ public class PaymentController {
             int userId = request.getUserId();
             String itemId = request.getItemId();
             double discount = request.getDiscount();
-            // Process the request
-            // ....
-            // Return success response to the client.
+
             response.setStatus(SUCCESS_STATUS);
             response.setCode(CODE_SUCCESS);
         } else {
